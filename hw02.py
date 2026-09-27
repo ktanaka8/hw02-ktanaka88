@@ -16,7 +16,13 @@ def compute_multadd(a, b):
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    pass
+    a = 45
+    b = 54
+    numerator = a*b
+    print(f"mult result: {numerator}")
+    denominator = a+b
+    print(f"add result: {denominator}")
+    return (a*b)/(a+b)
 
 # Task 3.1:
 #  Complete the function "print_fancy" below:
@@ -40,7 +46,9 @@ def main ():
     #  the call should provide the arguments x, and y you obtained above;
     #  store the returned value in a variable called xy_multadd
 
-    # TODO: add your call instead of this line
+    compute_multadd()
+    a, b=compute_multadd()
+
 
     # Task 3.2:
     #  Complete The line below to call print_fancy
