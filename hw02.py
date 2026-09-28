@@ -33,9 +33,9 @@ def print_fancy(a, b, ab_multadd):
     stripes = "="*16
     print(stars)
     print("RESULTS:")
-    print("first number: ", a)
-    print("second number: ", b)
-    print("multadd result: ", ab_multadd)
+    print("first number:", a)
+    print("second number:", b)
+    print("multadd result:", ab_multadd)
     print(stripes)
     
 def main ():
