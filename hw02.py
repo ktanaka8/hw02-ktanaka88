@@ -1,7 +1,17 @@
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
-    # ADD a Docstring for this function
+"""
+    Asks user for two inputs, converts them to integers, and returns them as x, y.
+
+
+    PARAMS:
+        - user_x: str 1 with whatever the user wants
+        - user_y: str 2 with whatever the user wants
+    RETURNS:
+        - int x: int of whatever str 1 is
+        - int y: int of whatever str 2 is
+"""
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     user_x=str(input("give me x: "))
@@ -13,7 +23,22 @@ def read_two_ints():
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
-    # ADD a Docstring for this function
+"""
+    Takes int x and int y from the user input and performs various mathematical functions.
+    
+    int x and int y are first multiplied together. this new number is called num for the numerator
+    of our final function. x*y is then printed. int x and int y are then added together. this new
+    number is called den for the denominator of our final function. the final function is defined
+    by variable ab_multadd, which is then returned.
+
+
+    PARAMS:
+        - num: int x multiplied by int y
+        - den: int x added to add y
+        - ab_multadd: num/den (a*b)/(a+b)
+    RETURNS:
+        - ab_multadd: quotient of a*b divided by a+b
+"""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     num = a*b
@@ -26,7 +51,18 @@ def compute_multadd(a, b):
 # Task 3.1:
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
-    # ADD a Docstring for this function
+"""
+    Prints out various inputs and the results of various mathematical functions.
+    
+    Creates a string of 16 stars; creates a string of 16 equal signs; prints stars, "RESULTS:", prints
+    our int x, int y, the result of ab_multadd, prints equal signs.
+    
+    PARAMS:
+        - stars: str of 16 "*"
+        - stripes: str of 16 "="
+    RETURNS:
+        - ab_multadd: quotient of a*b divided by a+b
+"""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     stars = "*"*16
@@ -39,7 +75,15 @@ def print_fancy(a, b, ab_multadd):
     print(stripes)
     
 def main ():
-    # ADD a Docstring for this function
+"""
+    Calls the read_two_ints, compute_multadd, and print_fancy functions within the main
+    function and assigns them the correct corresponding variables.
+
+    PARAMS:
+        - none
+    RETURNS:
+        - none
+"""
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
     #  the call should provide no arguments
